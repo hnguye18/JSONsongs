@@ -3,18 +3,48 @@
 <head>
 <meta charset="utf-8">
 <title>JSON Set List</title>
+    <script type="text/javascript" src="song_list.json"></script>
 </head>
 
 <body>
+    <h1>JSON Set List</h1>
+    <form id = "genres">
+        <label for = "genre_filter">Select the genre!</label>
+        <select name = "genre_filter" id = "genre_filter">Select the genre!
+            <option value = "Pop">Pop</option>
+            <option value = "Jazz">Jazz</option>
+            <option value = "EDM">EDM</option>
+            <option value = "Rock">Rock</option>
+            <option value = "Country">Country</option>
+            <option value = "Rap">Rap</option>
+            <option value = "RnB"> RnB </option>
+        </select>
+        
+    </form>
     
+    <button type = "button" form = "genres" onclick = "filter()">Filter</button>
+    <br> <br>
+    <div id = "tester"></div>
     
     <script>
-        fetch("song_list.json")
-            .then(response => response.json())
-            .then(data => {
-                console.log(data)
-            })
         
+        function filter() {
+            songs = data;
+            opt = "";
+            genre_pick = document.getElementById("genre_filter").value;
+            for (i = 0; i < 12; i++) {
+                if (songs[i].genre == genre_pick) {
+                    opt += (songs[i].song + "<br>");
+                    opt += ("Aritst(s): " + songs[i].artists + "<br>");
+                    opt += ("Genre: " + songs[i].genre + "<br>");
+                    opt += ("Released: " + songs[i].release + "<br>");
+                    opt += ("<br><br>");
+                }
+            }
+            document.getElementById("tester").innerHTML = opt;
+        }
+    
+        document.getElementById("tester").innerHTML = opt;
     </script>
     
 </body>
