@@ -9,12 +9,13 @@
     
     
     <script>
-        fetch("./song_list.json")
-.then(songs => {
-   return songs.json();
-})
-.then(data => console.log(data));
+        fetch("song_list.json")
+            .then(response => response.json())
+            .then(data => {
+                console.log(data)
+            })
         
     </script>
+    
 </body>
 </html>

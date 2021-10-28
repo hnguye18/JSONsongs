@@ -1,11 +1,9 @@
-{
-    "songlist":[
+[
     {
         "song": "Sunday Morning",
         "artists": ["Maroon 5"],
         "genre": ["Pop"],
         "release": 2004
-        toJSON() {return this.song}
     },
     {
         "song": "Stars Fell on Alabama",
@@ -72,6 +70,5 @@
         "artists": ["Frank Sinatra"],
         "genre": ["Jazz"],
         "release": 1966
-    },
-    ]
-}
+    }
+]
