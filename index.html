@@ -9,11 +9,11 @@
     
     
     <script>
-        fetch("song_list.json")
-        .then(response => response.json())
-        .then(data => {
-            console.log(data)
-        })
+        fetch("./employees.json")
+        .then(response => {
+         return response.json();
+         })
+         .then(data => console.log(data));
         
     </script>
 </body>
