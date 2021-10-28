@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JSON Set List</title>
+</head>
+
+<body>
+    
+    
+    <script>
+        fetch("song_list.json")
+        .then(response => response.json())
+        .then(data => {
+            console.log(data)
+        })
+        
+    </script>
+</body>
+</html>

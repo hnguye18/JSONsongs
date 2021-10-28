@@ -1,0 +1,77 @@
+{
+    "songlist":[
+    {
+        "song": "Sunday Morning",
+        "artists": ["Maroon 5"],
+        "genre": ["Pop"],
+        "release": 2004
+        toJSON() {return this.song}
+    },
+    {
+        "song": "Stars Fell on Alabama",
+        "artists": ["the Guy Lombardo Orchestra"],
+        "genre": ["Jazz"],
+        "release": 1934
+    },
+    {
+        "song": "Clarity",
+        "artists": ["ZEDD", "FOXES"],
+        "genre": ["EDM"],
+        "release": 2004
+    },
+    {
+        "song": "Shoot to Thrill",
+        "artists": ["AC/DC"],
+        "genre": ["Rock"],
+        "release": 1980
+    },
+    {
+        "song": "She's Country",
+        "artists": ["Jason Aldean"],
+        "genre": ["Country"],
+        "release": 2009
+    },
+    {
+        "song": "Kevin's Heart",
+        "artists": ["J. Cole"],
+        "genre": ["Rap"],
+        "release": 2018
+    },
+    {
+        "song": "Falling",
+        "artists": ["Kennedy Rd."],
+        "genre": ["R&B"],
+        "release": 2019
+    },
+    {
+        "song": "Thunderstruck",
+        "artists": ["AC/DC"],
+        "genre": ["Rock"],
+        "release": 1990
+    },
+    {
+        "song": "Unsteady",
+        "artists": ["X Ambassadors"],
+        "genre": ["Pop"],
+        "release": 2015
+    },
+    {
+        "song": "Linger",
+        "artists": ["The Cranberries"],
+        "genre": ["Rock"],
+        "release": 1993
+    },
+    {
+        "song": "Ain't Misbehavin'",
+        "artists": ["Fats Waller"],
+        "genre": ["Jazz"],
+        "release": 1929
+    },
+    {
+        "song": "That's Life",
+        "artists": ["Frank Sinatra"],
+        "genre": ["Jazz"],
+        "release": 1966
+    },
+    ]
+}
