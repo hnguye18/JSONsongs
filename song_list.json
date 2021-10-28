@@ -38,7 +38,7 @@ data = [
     {
         "song": "Falling",
         "artists": ["Kennedy Rd."],
-        "genre": ["R&B"],
+        "genre": ["RnB"],
         "release": 2019
     },
     {
